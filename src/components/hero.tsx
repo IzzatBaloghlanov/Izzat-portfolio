@@ -27,7 +27,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex items-center justify-center gap-6">
           <a href="https://github.com/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors"><Code2 size={20} /></a>
           <a href="https://linkedin.com/in/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors"><Globe size={20} /></a>
-          <a href="mailto:baloğlanovizzet@gmail.com" className="text-slate-400 hover:text-white transition-colors"><Mail size={20} /></a>
+          <a href="mailto:baloglanovizzet@gmail.com" className="text-slate-400 hover:text-white transition-colors"><Mail size={20} /></a>
         </motion.div>
       </div>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} className="absolute bottom-8 left-1/2 -translate-x-1/2">
