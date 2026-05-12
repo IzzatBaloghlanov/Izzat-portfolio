@@ -31,7 +31,7 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <div className="p-3 rounded-lg bg-blue-500/10 text-blue-400"><Mail size={20} /></div>
-                <div><p className="text-sm text-slate-400">Email</p><a href="mailto:baloğlanovizzet@gmail" className="text-white hover:text-blue-400 transition-colors">baloğlanovizzet@gmail</a></div>
+                <div><p className="text-sm text-slate-400">Email</p><a href="mailto:baloğlanovizzet@gmail" className="text-white hover:text-blue-400 transition-colors">baloglanovizzet@gmail</a></div>
               </div>
               <div className="flex items-center gap-4">
                 <div className="p-3 rounded-lg bg-blue-500/10 text-blue-400"><MapPin size={20} /></div>
