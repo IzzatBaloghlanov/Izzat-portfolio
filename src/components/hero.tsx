@@ -13,21 +13,21 @@ export default function Hero() {
             Available for freelance
           </span>
         </motion.div>
-        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }} className="text-5xl sm:text-7xl font-bold tracking-tight mb-6">
+        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-6">
           <span className="bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">IZZAT BALOGHLANOV</span>
-        </motion.h1>
-        <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }} className="text-xl sm:text-2xl text-slate-400 mb-8 max-w-2xl mx-auto">
+        </h1>
+        <h2 className="text-xl sm:text-2xl text-slate-400 mb-8 max-w-2xl mx-auto">
           Frontend Developer & React Specialist<br />
           <span className="text-cyan-400">Javascript · React · TypeScript · Next.js </span>
-        </motion.h2>
+        </h2>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }} className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <a href="#projects" className="px-8 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium transition-colors">View Projects</a>
           <a href="#contact" className="px-8 py-3 rounded-lg bg-secondary hover:bg-white/10 text-white font-medium border border-white/10 transition-colors">Contact Me</a>
         </motion.div>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex items-center justify-center gap-6">
-          <a href="https://github.com/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors"><Code2 size={20} /></a>
-          <a href="https://linkedin.com/in/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors"><Globe size={20} /></a>
-          <a href="mailto:baloglanovizzet@gmail.com" className="text-slate-400 hover:text-white transition-colors"><Mail size={20} /></a>
+          <a href="https://github.com/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" aria-label="Visit my GitHub"><Code2 size={20} /></a>
+          <a href="https://linkedin.com/in/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" aria-label="Visit my LinkedIn"><Globe size={20} /></a>
+          <a href="mailto:baloglanovizzet@gmail.com" className="text-slate-400 hover:text-white transition-colors" aria-label="Send me an email"><Mail size={20} /></a>
         </motion.div>
       </div>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} className="absolute bottom-8 left-1/2 -translate-x-1/2">

@@ -111,12 +111,14 @@ export default function Projects() {
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors"
+                    aria-label={`Live Demo — ${project.title}`}
                   >
                     <ExternalLink size={14} />Live Demo
                   </a>
                   <a 
                     href={project.githubUrl} 
                     className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
+                    aria-label={`View Source — ${project.title}`}
                   >
                     <Code2 size={14} />Source
                   </a>

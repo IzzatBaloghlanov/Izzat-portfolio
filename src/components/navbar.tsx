@@ -29,7 +29,11 @@ export default function Navbar() {
               </a>
             ))}
           </div>
-          <button className="md:hidden text-slate-300" onClick={() => setIsOpen(!isOpen)}>
+          <button 
+            className="md:hidden text-slate-300" 
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+          >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
