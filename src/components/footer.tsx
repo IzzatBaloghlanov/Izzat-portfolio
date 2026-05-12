@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex items-center gap-6">
           <a href="https://github.com/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" aria-label="Visit my GitHub"><Code2 size={18} /></a>
           <a href="https://linkedin.com/in/IzzatBaloghlanov" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" aria-label="Visit my LinkedIn"><Globe size={18} /></a>
-          <a href="mailto:baloğlanovizzet@gmail" className="text-slate-400 hover:text-white transition-colors" aria-label="Send me an email"><Mail size={18} /></a>
+          <a href="mailto:baloglanovizzet@gmail.com" className="text-slate-400 hover:text-white transition-colors" aria-label="Send me an email"><Mail size={18} /></a>
         </div>
       </div>
     </footer>

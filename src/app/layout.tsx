@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description: 'Izzat Baloghlanov - Frontend Developer specializing in React, TypeScript, Next.js, Tailwind CSS, and React Native. Building scalable SaaS dashboards and premium web applications.',
   keywords: ['Izzat Baloghlanov', 'Frontend Developer', 'React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'React Native', 'SaaS Development', 'Azerbaijan', 'Freelance Developer'],
-  authors: [{ name: 'Izzat Baloghlanov', url: 'https://fuad-portfolio.vercel.app' }],
+  authors: [{ name: 'Izzat Baloghlanov', url: 'https://izzat-portfolio.vercel.app' }],
   creator: 'Izzat Baloghlanov',
   publisher: 'Izzat Baloghlanov',
   robots: {
@@ -64,6 +64,13 @@ export const metadata: Metadata = {
   
 };
 
+export const viewport = {
+  themeColor: '#09090b',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -71,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: 'Izzat Baloghlanov',
     url: 'https://izzat-portfolio.vercel.app',
     jobTitle: 'Frontend Developer',
-    email: 'mailto:baloğlanovizzet@gmail.com',
+    email: 'mailto:baloglanovizzet@gmail.com',
     sameAs: [
       'https://github.com/izzatbaloghlanov',
       'https://linkedin.com/in/izzatbaloghlanov',
