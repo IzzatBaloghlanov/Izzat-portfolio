@@ -61,7 +61,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://izzat-portfolio.vercel.app',
   },
-  
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
+  },
 };
 
 export const viewport = {
